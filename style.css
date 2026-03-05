@@ -1,7 +1,11 @@
 body {
     overflow: hidden;
-
+  background-image: linear-gradient(rgba(255, 255, 255, 0.856), rgba(255, 255, 255, 0.856)), url('Images/Pattern-design.jpg');
+  background-position: center;
+  background-size: cover;
 }
+
+
 
 
 .navbar ul{
