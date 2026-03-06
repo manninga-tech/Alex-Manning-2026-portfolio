@@ -1,20 +1,50 @@
 body {
     overflow: hidden;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.856), rgba(255, 255, 255, 0.856)), url('Images/Pattern-design.jpg');
-  background-position: center;
-  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(Images/yellow-christmas-star-png-18.png);
+    background-size: 10%;
+    background-repeat: repeat;
+    background-color: rgb(86, 90, 154);
+    animation: animation-bg 3s infinite linear;
+    
+}
+body::after {
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    opacity: 0.8;
+    background: 
+    linear-gradient(rgb(0, 229, 255), rgb(33, 33, 158));
+    z-index: -1;
+}
+
+body .content{
+    flex: content;
+    align-self: start;
+    
+}
+
+@keyframes animation-bg {
+    100% {
+        background-position: 42.5px 42.5px;
+    }
 }
 
 
-
-
 .navbar ul{
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
+    margin-top: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    
 }
 
 
@@ -24,11 +54,12 @@ body {
 
 
 .navbar ul li a {
-  display:block;
-  color: white;
+  display: block;
+  color: rgb(255, 255, 255);
   text-align: center;
-  padding: 14px 16px;
+  padding: 22px 20px;
   text-decoration: none;
+
 }
 
 .navbar ul li a:hover {
@@ -65,6 +96,7 @@ z-index: 1;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 140%;
+    
 }
 
 .Project-heading{
