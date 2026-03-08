@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-x: clip;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body::after {
     content: '';
     position: absolute;
     width: 110%;
-    height: 110%;
+    height: 1000%;
     opacity: 0.8;
     background: 
     linear-gradient(rgb(0, 229, 255), rgb(33, 33, 158));
@@ -100,7 +100,18 @@ z-index: 1;
 }
 
 .Project-heading{
-    font-size: 150%;
+    font-size: 180%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.frame {
+    position: absolute;
+    left: 46%;
+    top: 70%;
+    width: 50%;
+    
+}
+
+p {
+    font-size: 130%;
+}
