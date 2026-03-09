@@ -9,7 +9,7 @@ body {
     background-repeat: repeat;
     background-color: rgb(86, 90, 154);
     animation: animation-bg 3s infinite linear;
-    
+    flex: content;
 }
 body::after {
     content: '';
@@ -109,9 +109,19 @@ z-index: 1;
     left: 46%;
     top: 70%;
     width: 50%;
+    z-index: 2;
     
 }
 
 p {
     font-size: 130%;
+}
+
+.Project-1 {
+    position: absolute;
+    left: 41.5%;
+    top: 84%;
+    width: 58%;
+    
+
 }
