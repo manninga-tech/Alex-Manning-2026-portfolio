@@ -115,6 +115,12 @@ z-index: 1;
 
 p {
     font-size: 130%;
+    background-color: rgb(188, 221, 227);
+    border-radius: 5px;
+    border-width: 4px;
+    border-color: rgb(234, 192, 140);
+    border-style: dashed;
+    justify-self: start;
 }
 
 .Project-1 {
