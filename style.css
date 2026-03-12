@@ -110,6 +110,8 @@ z-index: 1;
     top: 70%;
     width: 50%;
     z-index: 2;
+    display: block;
+
     
 }
 
@@ -123,6 +125,10 @@ p {
     justify-self: start;
     color: rgb(252, 230, 182);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    box-sizing: border-box;
+    overflow-x: clip;
+    overflow-y: clip;
 }
 
 .Project-1 {
@@ -130,7 +136,7 @@ p {
     left: 41.5%;
     top: 84%;
     width: 58%;
-    
+
 }
 
 .main-project1-photo {
